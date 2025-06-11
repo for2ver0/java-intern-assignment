@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: assignment
+
+jwt:
+  secret:
+    key: N+TdXgKtO/HfBx0vX6ZCaDe/F51z/APPL0PAuj3M6HmZIBd3eTiDGK1y8Qq5y5nPwUKWTkoyLaV2u16wvOhnSA==
+
+server:
+  address: 0.0.0.0
+  port: 8080
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
